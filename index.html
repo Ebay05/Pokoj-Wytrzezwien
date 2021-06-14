@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Pokój Wytrzeźwień</title>
+
+    <!-- CSS Core -->
+    <link rel="stylesheet" href="css/background.css" />
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+    <div class="preloader">
+      <img src="svg/preloader.svg">
+      <div>
+        <span class="loading-text">ł</span>
+        <span class="loading-text">a</span>
+        <span class="loading-text">d</span>
+        <span class="loading-text">o</span>
+        <span class="loading-text">w</span>
+        <span class="loading-text">a</span>
+        <span class="loading-text">n</span>
+        <span class="loading-text">i</span>
+        <span class="loading-text">e</span>
+        <span class="loading-text">.</span>
+        <span class="loading-text">.</span>
+        <span class="loading-text">.</span>
+      </div>
+    </div>
+
+    <div id="wrapper">
+
+      <!-- BACKGROUND -->
+      <div id="background">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+      </div>
+
+      <div class="triangle"></div>
+      
+      <!-- FIRST VIEW -->
+      <section id="title">
+        <nav>
+          <label class="theme-switcher" for="themeswitch">
+            <div class="background"></div>
+            <input type="checkbox" id="themeswitch">
+            <div class="switch">
+                <img class="sun" src="svg/default.svg">
+                <!-- <img class="moon" src="svg/blue.svg"> -->
+            </div>
+        </label>
+          <div class="profiles">
+            <a href="#team"><img src="img/dawid.jpg" alt="Dawid" /></a>
+            <a href="#team"><img src="img/bjushee.jpg" alt="Bjushee" /></a>
+            <a href="#team"><img src="img/marson.jpg" alt="Marson" /></a>
+            <a href="#team"><img src="img/bugi.jpg" alt="Bugi" /></a>
+            <a href="#team"><img src="img/morkie.jpg" alt="Morkie" /></a>
+            <a href="#team"><img src="img/oskar.jpg" alt="Oskar" /></a>
+          </div>
+        </nav>
+        <div class="counter">
+          <div>
+            <h1>
+              pokój <br />
+              wytrzeźwień
+            </h1>
+            <span id="stream-info">Pn | Śr | Pt | 18:00</span><br>
+            <span id="ended-counting"></span>
+            <div class="tiles-box">
+              <div class="tile">
+                <span id="days" class="number"></span><br />
+                <span class="text">dni</span>
+              </div>
+              <div class="tile">
+                <span id="hours" class="number"></span><br />
+                <span class="text">godzin</span>
+              </div>
+              <div class="tile">
+                <span  id="minutes"  class="number"></span><br />
+                <span class="text">minut</span>
+              </div>
+              <div class="tile">
+                <span  id="seconds"  class="number"></span><br />
+                <span class="text">sekund</span>
+              </div>
+            </div>
+          </div>
+          <img src="svg/vr.svg" />
+        </div>
+      </section>
+
+      <!-- TEAM SEC -->
+      <section id="team">
+        <div class="row">
+          <div>
+            <img src="img/dawid.jpg" alt="Dawid" />
+            <h3>dawid</h3>
+            <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique <span class="moreText">eu fringilla at, euismod nec ante. Proin et lectus ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique eu fringilla at, euismod nec ante. Proin et lectus</span>
+            </p>
+            <button class="read-more-btn">czytaj więcej</button>
+          </div>
+          <div>
+            <img src="img/bjushee.jpg" alt="Bjushee" />
+            <h3>bjushee</h3>
+            <p class="tekst1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique <span class="moreText1">eu fringilla at, euismod nec ante. Proin et lectus ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique eu fringilla at, euismod nec ante. Proin et lectus</span>
+            </p>
+            <button class="read-more-btn1">czytaj więcej</button>
+          </div>
+          <div>
+            <img src="img/marson.jpg" alt="Marson" />
+            <h3>Marson</h3>
+            <p class="tekst2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique <span class="moreText2">eu fringilla at, euismod nec ante. Proin et lectus ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique eu fringilla at, euismod nec ante. Proin et lectus</span>
+            </p>
+            <button class="read-more-btn2">czytaj więcej</button>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <img src="img/bugi.jpg" alt="Bugi" />
+            <h3>Bugi</h3>
+            <p class="tekst3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique <span class="moreText3">eu fringilla at, euismod nec ante. Proin et lectus ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique eu fringilla at, euismod nec ante. Proin et lectus</span>
+            </p>
+            <button class="read-more-btn3">czytaj więcej</button>
+          </div>
+          <div>
+            <img src="img/morkie.jpg" alt="Morkie" />
+            <h3>morkie</h3>
+            <p class="tekst4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique <span class="moreText4">eu fringilla at, euismod nec ante. Proin et lectus ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique eu fringilla at, euismod nec ante. Proin et lectus</span>
+            </p>
+            <button class="read-more-btn4">czytaj więcej</button>
+          </div>
+          <div>
+            <img src="img/oskar.jpg" alt="oskar" />
+            <h3>Oskar</h3>
+            <p class="tekst5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique <span class="moreText5">eu fringilla at, euismod nec ante. Proin et lectus ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem lectus, tristique eu fringilla at, euismod nec ante. Proin et lectus</span>
+            </p>
+            <button class="read-more-btn5">czytaj więcej</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- FUNNY MOMENTS SEC -->
+      <section id="funny-moments">
+        <h1>funny moments</h1>
+
+        <div id="slider">
+          <ul>
+            <li>
+            <div class="slider-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ZWBBVbJ6cMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </li>
+              <li>
+              <div class="slider-container">
+                <iframe class="hidden-slide" width="560" height="315" src="https://www.youtube.com/embed/rjpIpzuVVVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </li>
+              <li>
+              <div class="slider-container">
+                <iframe class="hidden-slide" width="560" height="315" src="https://www.youtube.com/embed/wEqO4vpL8tI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </li>
+              <li>
+              <div class="slider-container">
+                <iframe class="hidden-slide" width="560" height="315" src="https://www.youtube.com/embed/RH0h-vAWhFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </li>
+            <li>
+              <div class="slider-container">
+                <iframe class="hidden-slide" width="560" height="315" src="https://www.youtube.com/embed/dvp5beA7BJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </li>
+            <li>
+              <div class="slider-container">
+                <iframe class="hidden-slide" width="560" height="315" src="https://www.youtube.com/embed/dfYYEy9w24c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </li>
+          </ul>
+          </div>
+
+      </section>
+
+     <!-- FOOTER -->
+     <footer>
+      <div class="footer-links">
+        <p class="footer-social">&gt;&gt;Linki do social mediów&lt;&lt;</p>
+        <div class="social-media">
+          <ul>
+            <h2>Twitch</h2>
+            <li><a href="https://www.twitch.tv/pokojwytrzezwien">Dawid</a></li>
+            <li><a href="https://www.twitch.tv/bjushee">Bjushee</a></li>
+            <li><a href="https://www.twitch.tv/marsonikk">Marson</a></li>
+            <li><a href="https://www.twitch.tv/bugi_monster">Bugi</a></li>
+            <li><a href="https://www.twitch.tv/morkie_">Morkie</a></li>
+            <li>Oskar</li>
+          </ul>
+          <ul>
+            <h2>Youtube</h2>
+            <li><a href="https://www.youtube.com/c/Pok%C3%B3jWytrze%C5%BAwie%C5%84/featured">Dawid</a></li>
+            <li><a href="https://www.youtube.com/user/bjushee">Bjushee</a></li>
+            <li><a href="https://www.youtube.com/c/PrzedPokójWytrzeźwień/featured">Marson</a></li>
+            <li><a href="https://www.youtube.com/c/PrzedPokójWytrzeźwień/featured">Bugi</a></li>
+            <li><a href="https://www.youtube.com/c/PrzedPokójWytrzeźwień/featured">Morkie</a></li>
+            <li><a href="https://www.youtube.com/c/PrzedPokójWytrzeźwień/featured">Oskar</a></li>
+          </ul>
+          <ul>
+            <h2>Instagram</h2>
+            <li>Dawid</li>
+            <li>Bjushee</li>
+            <li>Marson</li>
+            <li>Bugi</li>
+            <li>Morkie</li>
+            <li>Oskar</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyrights">
+        Copyrights 2021 &copy; Aleksandra Mazan | Łukasz Kowalczyk | Bartosz
+        Tondera
+      </p>
+    </footer>
+    </div>
+
+    <!-- JS Core -->
+    <script src="./js/main.js"></script>
+    <script src="./js/ReadMore.js"></script>
+
+  </body>
+</html>
