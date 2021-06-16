@@ -50,7 +50,7 @@ function countDown() {
           hour = minute * 60,
           day = hour * 24;
   
-    const stream = "Jun 11, 2021 18:00:00",
+    const stream = "Jun 16, 2021 18:00:00",
         countDown = new Date(stream).getTime(),
 
         // setInterval ustawia czas wykonywania sie funkcji
@@ -74,8 +74,8 @@ function countDown() {
             document.getElementById("seconds").innerText = 0;
 
             // Dodawanie dni po zakonczeniu
-            let newStreamDate = new Date(stream); console.log(newStreamDate)
-            
+            let newStreamDate = new Date(stream); 
+                        
             if(newStreamDate.getDay()==5){
                 // +3 dni
                 newStreamDate.setDate(newStreamDate.getDate()+3);
@@ -85,6 +85,7 @@ function countDown() {
             }
             
             newStreamDate.setHours(newStreamDate.getHours()+4);
+
             clearInterval(interval);
           }
 
